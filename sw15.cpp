@@ -12,5 +12,5 @@ int main()
     int area = (radius*50)*pi;
 
     cout<<"\n\nThe area of the circle if the radius is 50: "<< area;
-    return EXIT_SUCCESS;
+    return 0;
 }
