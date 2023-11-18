@@ -5,11 +5,12 @@ using namespace std;
 
 int main()
 {
-    string fname, lname, midI, add, sex, contact;
+    string fname, lname, midI, add, contact, remarks, gender;
     double byear;
-    char let;
+    char let, sex;
 
-    cout<<"Nueva Ecija University of Science and Technology\n";
+    cout<<"\nSeatNumber: 31";
+    cout<<"\nNueva Ecija University of Science and Technology\n";
     cout<<"Sumacab Campus\n\n";
 
     cout<<"Input Last Name: ";
@@ -29,6 +30,8 @@ int main()
     cout<<"Input Sex: ";
     cin>>sex;
 
+    
+
     string fullname = fname +" "+ midI +" "+ lname;
     int age = 2023 - byear;
 
@@ -37,7 +40,21 @@ int main()
     cout<<"\nContact Number: " << contact;
     cout<<"\nBirth Year: " << byear;
     cout<<"\nAge: " << age;
-    cout<<"\nRemarks: Scholar";
-    cout<<"\nSex: " << sex;
+    if(let == 'S')
+    {
+        remarks = "Scholar";
+        cout<<"\nRemarks: " << remarks;
+    }
+    if(sex == 'M')
+    {
+        gender = "Male";
+        cout<<"\nSex: " << gender;
+    } 
+        else if(sex == 'F')
+        {
+            gender = "Female";
+            cout<<"\nSex: " << gender;
+        }
+    
     return 0;
 }
