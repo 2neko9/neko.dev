@@ -8,6 +8,8 @@ int main()
 
     char choice;
 
+    cout<<"SeatNumber: 31";
+    cout<<"SeatWork number: 22";
     cout<<"\n\n\t\tSimple Q and A program. \n";
     cout<<"\nWhat do you call a 2D shape in geometry, having 4 sides and 4 corners.\nIt's two sides meet at right angles? \n";
     cout<<"a - RHOMBUS\n";
@@ -39,5 +41,6 @@ int main()
         cout<<"\nYour answer is invalid.\n";
         break;
     }
-
+    
+   return 0;
 }
