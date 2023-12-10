@@ -19,29 +19,27 @@ int main()
     switch (op)
     {
     case '+':;
-    sum = num1 + num2;
-    cout<<"\n\nThe sum of Num1 and Num2 is: " << sum;
+        sum = num1 + num2;
+        cout<<"\n\nThe sum of Num1 and Num2 is: " << sum;
         break;
-    }
-    switch (op)
-    {
+   
     case '-':;
-    diff = num1 - num2;
-    cout<<"\n\nThe difference of Num1 and Num2 is: " << diff;
+        diff = num1 - num2;
+        cout<<"\n\nThe difference of Num1 and Num2 is: " << diff;
         break;
-    }
-    switch (op)
-    {
+  
     case '*':;
-    prod = num1 * num2;
-    cout<<"\n\nThe product of Num1 and Num2 is: " << prod;
+        prod = num1 * num2;
+        cout<<"\n\nThe product of Num1 and Num2 is: " << prod;
         break;
-    }
-    switch (op)
-    {
+   
     case '/':;
-    quot = num1 / num2;
-    cout<<"\n\nThe quotient of Num1 and Num2 is: " << quot;
+        quot = num1 / num2;
+        cout<<"\n\nThe quotient of Num1 and Num2 is: " << quot;
+        break;
+        
+    default:
+        cout<<"\nThe Operation you input is invalid.\n";
         break;
     }
 
