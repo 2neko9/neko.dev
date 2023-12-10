@@ -8,6 +8,8 @@ int main()
     double num1,num2,sum,diff,prod,quot;
     char op;
 
+    cout<<"SeatNumber: 31";
+    cout<<"\nSeatWork number: 23";
     cout<<"Sample Calculator\n\n";
     cout<<"Enter first number: ";
     cin>>num1;
